@@ -7,7 +7,7 @@ const Icons = styled.div`
 display: flex;
 flex-direction: column;
 align-items: center;
-
+row-gap: 1em;
 position: fixed;
 bottom: 0;
 left; 2rem;
@@ -24,21 +24,51 @@ const Line = styled.span`
   height: 8rem;
   background-color: ${(props) => props.theme.text};
 `;
-
+//need to add in emery's links
 const SocialIcons = () => {
   return (
     <Icons>
       <div>
-        <NavLink style={{color: 'inherit'}} to="/">
+        <NavLink
+          style={{ color: "inherit" }}
+          to={{
+            pathname:
+              "https://princeanimal.tumblr.com/post/98935108863/dont-let-me-go-to-heaven-i-want-to-be-undead-with",
+          }}
+        >
           <Github width={25} height={25} fill="currentColor" />
         </NavLink>
-        <NavLink style={{color: 'inherit'}} to="/">
+      </div>
+      <div>
+        <NavLink
+          style={{ color: "inherit" }}
+          to={{
+            pathname:
+              "https://princeanimal.tumblr.com/post/98935108863/dont-let-me-go-to-heaven-i-want-to-be-undead-with",
+          }}
+        >
           <Twitter width={25} height={25} fill="currentColor" />
         </NavLink>
-        <NavLink style={{color: 'inherit'}} to="/">
+      </div>
+      <div>
+        <NavLink
+          style={{ color: "inherit" }}
+          to={{
+            pathname:
+              "https://princeanimal.tumblr.com/post/98935108863/dont-let-me-go-to-heaven-i-want-to-be-undead-with",
+          }}
+        >
           <Facebook width={25} height={25} fill="currentColor" />
         </NavLink>
-        <NavLink style={{color: 'inherit'}} to="/">
+      </div>
+      <div>
+        <NavLink
+          style={{ color: "inherit" }}
+          to={{
+            pathname:
+              "https://princeanimal.tumblr.com/post/98935108863/dont-let-me-go-to-heaven-i-want-to-be-undead-with",
+          }}
+        >
           <YouTube width={25} height={25} fill="currentColor" />
         </NavLink>
       </div>
